@@ -24,9 +24,17 @@ export const creditStyles = style({
     "screen and (max-width: 768px)": {
       position: "fixed",
       top: "3.25rem",
-      left: "0.75rem",
+      left: 0,
+      width: "100%",
+      maxWidth: "100%",
+      textAlign: "center",
       zIndex: 19,
       backgroundColor: "white",
+      padding: "0.35rem 0.75rem 0.5rem 0.75rem",
+      boxSizing: "border-box",
+      border: "none",
+      borderLeft: "none",
+      maxHeight: 20,
     },
   },
 

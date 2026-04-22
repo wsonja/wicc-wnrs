@@ -21,7 +21,7 @@ export const appStyles = style({
       justifyContent: "flex-start",
       alignItems: "center",
       flexWrap: "nowrap",
-      padding: "5.5rem 0.75rem 1rem 0.75rem",
+      padding: "6.5rem 0.75rem 1rem 0.75rem",
       boxSizing: "border-box",
     },
   },
@@ -58,6 +58,16 @@ export const levelsStyles = style({
   alignContent: "center",
   alignItems: "center",
   width: "17rem",
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      flexDirection: "row",
+      width: "100%",
+      justifyContent: "center",
+      gap: "0.5rem",
+      flexWrap: "nowrap",
+    },
+  },
 });
 
 export const levelButtonStyles = style({
@@ -84,6 +94,16 @@ export const levelButtonStyles = style({
   selectors: {
     "&:focus, &:active": {
       outline: "none",
+    },
+  },
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      width: "5.5rem",
+      height: "3rem",
+      margin: 0,
+      fontSize: 14,
+      borderRadius: 12,
     },
   },
 });
