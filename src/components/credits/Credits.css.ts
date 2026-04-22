@@ -32,7 +32,7 @@ export const creditStyles = style({
       backgroundColor: "white",
       boxSizing: "border-box",
       border: "none",
-      padding: "0.4rem 1rem",
+      padding: "0.4rem 1rem 3rem 1rem",
       paddingLeft: "1rem",
     }
   },
