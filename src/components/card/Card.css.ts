@@ -43,14 +43,15 @@ export const smallCardStyles = style({
   // marginBottom: "1vh",
   margin: "1rem 0",
   borderRadius: 30,
-  boxShadow: `
-  0px 0.7px 2.1px rgba(0, 0, 0, 0.018),
-  0px 1.6px 4.8px rgba(0, 0, 0, 0.026),
-  0px 2.9px 8.7px rgba(0, 0, 0, 0.032),
-  0px 4.8px 14.5px rgba(0, 0, 0, 0.038),
-  0px 7.9px 23.8px rgba(0, 0, 0, 0.044),
-  0px 13.9px 41.6px rgba(0, 0, 0, 0.052),
-  0px 30px 90px rgba(0, 0, 0, 0.07)
-  `,
+  // boxShadow: `
+  // 0px 0.7px 2.1px rgba(0, 0, 0, 0.018),
+  // 0px 1.6px 4.8px rgba(0, 0, 0, 0.026),
+  // 0px 2.9px 8.7px rgba(0, 0, 0, 0.032),
+  // 0px 4.8px 14.5px rgba(0, 0, 0, 0.038),
+  // 0px 7.9px 23.8px rgba(0, 0, 0, 0.044),
+  // 0px 13.9px 41.6px rgba(0, 0, 0, 0.052),
+  // 0px 30px 90px rgba(0, 0, 0, 0.07)
+  // `,
+  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.08)",
   padding: 20,
 });

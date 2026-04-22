@@ -8,7 +8,7 @@ export const creditStyles = style({
   backgroundColor: "#fff",
   height: "auto",
   textAlign: "left",
-  maxHeight: 13,
+  maxHeight: 20,
   width: 175,
   padding: 4,
   top: 30,
@@ -30,6 +30,7 @@ export const creditStyles = style({
 export const creditTitleStyles = style({
   textTransform: "uppercase",
   fontWeight: 700,
+  paddingBottom: 10
 });
 
 export const contStyles = style({

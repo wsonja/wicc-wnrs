@@ -93,7 +93,7 @@ function App() {
       <Credits />
       <div className={levelsStyles}>{buttons}</div>
       <div className={questionStyles}>
-        <div className={titleStyles}>wnrs</div>
+        <div className={titleStyles}>wnrs: WICC ver.</div>
         <Card styleName={bigCardStyles} question={currCard} />
         <button className={nextCardButtonStlyes} onClick={() => handleNextCard()}>
           next card
