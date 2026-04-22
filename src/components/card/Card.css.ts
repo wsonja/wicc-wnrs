@@ -37,9 +37,10 @@ export const bigCardStyles = style({
 
   "@media": {
     "screen and (max-width: 768px)": {
-      width: "calc(100vw - 2.5rem)",
-      maxWidth: "calc(100vw - 2.5rem)",
+      width: "calc(100vw - 3rem)",
+      maxWidth: "calc(100vw - 3rem)",
       margin: "1rem auto",
+      marginTop: "3rem",
       padding: 24,
       borderRadius: 32,
       fontSize: 20,

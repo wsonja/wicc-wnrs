@@ -27,19 +27,14 @@ export const creditStyles = style({
       left: 0,
       width: "100%",
       maxWidth: "100%",
-      height: "2.25rem",
-      maxHeight: "2.25rem",
       textAlign: "center",
       zIndex: 19,
       backgroundColor: "white",
-      padding: "0 0.75rem",
-      paddingLeft: 0,
       boxSizing: "border-box",
       border: "none",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-    },
+      padding: "0.4rem 1rem",
+      paddingLeft: "1rem",
+    }
   },
 
   ":hover": {
@@ -52,10 +47,27 @@ export const creditStyles = style({
 export const creditTitleStyles = style({
   textTransform: "uppercase",
   fontWeight: 700,
-  paddingBottom: 10
+  paddingBottom: 10,
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      textAlign: "center",
+      width: "100%",
+      paddingBottom: 0,
+    },
+  },
 });
 
 export const contStyles = style({
   paddingTop: 10,
   borderTop: "1px solid #eee",
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      textAlign: "left",
+      padding: "0.75rem 1rem 1rem 1rem",
+      marginTop: "0.5rem",
+      borderTop: "1px solid #eee",
+    },
+  },
 });
