@@ -52,7 +52,7 @@ export const smallCardStyles = style({
   // margin: "auto",
   fontSize: 18,
   width: "100%",
-  height: "100%",
+  // height: "100%",
   // marginTop: "",
   // marginBottom: "1vh",
   margin: "1rem 0",
