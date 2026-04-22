@@ -53,7 +53,7 @@ export const creditTitleStyles = style({
     "screen and (max-width: 768px)": {
       textAlign: "center",
       width: "100%",
-      paddingBottom: "3rem",
+      paddingBottom: "2rem",
     },
   },
 });

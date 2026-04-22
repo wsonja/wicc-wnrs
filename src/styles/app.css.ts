@@ -21,7 +21,7 @@ export const appStyles = style({
       justifyContent: "flex-start",
       alignItems: "center",
       flexWrap: "nowrap",
-      padding: "6.5rem 0.75rem 1rem 0.75rem",
+      padding: "7rem 0.75rem 1rem 0.75rem",
       boxSizing: "border-box",
     },
   },
