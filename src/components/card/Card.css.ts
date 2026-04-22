@@ -14,11 +14,7 @@ export const cardStyles = style({
   },
 });
 
-export const pageContentStyles = style({
-  padding: "7rem 1rem 1.5rem 1rem",
-  width: "100%",
-  boxSizing: "border-box",
-});
+
 
 export const bigCardStyles = style({
   fontSize: 25,
@@ -38,6 +34,17 @@ export const bigCardStyles = style({
   0px 30px 90px rgba(0, 0, 0, 0.07)
   `,
   padding: 50,
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      width: "calc(100vw - 2.5rem)",
+      maxWidth: "calc(100vw - 2.5rem)",
+      margin: "1rem auto",
+      padding: 24,
+      borderRadius: 32,
+      fontSize: 20,
+    },
+  },
 });
 
 export const smallCardStyles = style({
