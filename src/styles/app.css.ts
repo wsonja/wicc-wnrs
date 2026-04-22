@@ -14,6 +14,17 @@ export const appStyles = style({
   maxWidth: 1080,
   margin: "0 auto",
   height: "100%",
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      flexDirection: "column",
+      justifyContent: "flex-start",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      padding: "5.5rem 0.75rem 1rem 0.75rem",
+      boxSizing: "border-box",
+    },
+  },
 });
 
 export const titleStyles = style({
@@ -22,6 +33,22 @@ export const titleStyles = style({
   marginTop: "3vh",
   marginBottom: "3vh",
   fontWeight: 800,
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      position: "fixed",
+      top: 0,
+      left: 0,
+      width: "100%",
+      padding: "0.75rem 0.75rem 0.35rem 0.75rem",
+      fontSize: 20,
+      marginTop: 0,
+      marginBottom: 0,
+      backgroundColor: "white",
+      zIndex: 20,
+      boxSizing: "border-box",
+    },
+  },
 });
 
 export const levelsStyles = style({
@@ -87,6 +114,7 @@ export const nextCardButtonStlyes = style({
   ":hover": {
     backgroundColor: primaryAccentMuted,
     color: "rgb(240, 240, 240)",
+    cursor: "pointer",
   },
 });
 
@@ -97,4 +125,11 @@ export const questionStyles = style({
   width: "26rem",
   textTransform: "uppercase",
   alignItems: "center",
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      width: "100%",
+      maxWidth: "100%",
+    },
+  },
 });

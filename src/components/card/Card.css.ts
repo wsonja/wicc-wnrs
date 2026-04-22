@@ -14,6 +14,12 @@ export const cardStyles = style({
   },
 });
 
+export const pageContentStyles = style({
+  padding: "7rem 1rem 1.5rem 1rem",
+  width: "100%",
+  boxSizing: "border-box",
+});
+
 export const bigCardStyles = style({
   fontSize: 25,
   width: "100%",

@@ -20,6 +20,16 @@ export const creditStyles = style({
   overflow: "hidden",
   transition: "max-height 1.2s ease-in-out",
 
+  "@media": {
+    "screen and (max-width: 768px)": {
+      position: "fixed",
+      top: "3.25rem",
+      left: "0.75rem",
+      zIndex: 19,
+      backgroundColor: "white",
+    },
+  },
+
   ":hover": {
     height: "auto",
     maxHeight: 1000,
